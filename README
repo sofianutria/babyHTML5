@@ -1,0 +1,11 @@
+🧑‍💻 Local Installation
+1. Clone this repository
+git clone https://github.com/sofianutria/babyHTML5.git
+2. Navigate to the project directory
+cd babyHTML5
+3. Run the project using Docker
+Ensure you have Docker installed on your machine. Then, build and run the container:
+docker build -t baby-html .
+docker run -d -p 80:80 baby-html
+4. Access the application
+Open your browser and navigate to http://localhost to explore the Marimbeta Music School platform.
